@@ -18,4 +18,11 @@ puts "Creating freebies..."
 # ***************************************************************
 # Create freebies Here
 
+Freebie.create(company_id: 3, dev_id: 4, item_name: "Bag", value: 10)
+Freebie.create(company_id: 2, dev_id: 1, item_name: "Pen", value: 2)
+Freebie.create(company_id: 2, dev_id: 1, item_name: "Pencil", value: 1)
+Freebie.create(company_id: 4, dev_id: 6, item_name: "T-Shirt", value: 15)
+Freebie.create(company_id: 1, dev_id: 1, item_name: "Brochure", value: 0)
+
+
 puts "Seeding done!"
